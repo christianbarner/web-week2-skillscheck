@@ -1,0 +1,125 @@
+#master{
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#zone1{
+height: 10vh;
+width: 100vw;
+background: darkgray;
+
+}
+
+#holder1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    left: 100px;
+    padding-left: 75px;
+    color: white;
+}
+
+
+ul{
+    color: white;
+}
+#list{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 75px;
+
+}
+
+#zone2{
+    height: 80vh;
+    width: 100vw;
+    background: black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+h2{
+    color: yellow;
+    font-size: 75px;
+}
+
+
+#zone3{
+    display: flex;
+    height: 130vh;
+    width: 100Vw;
+    flex-wrap: wrap;
+}
+
+#roundHolder{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#roundBox{
+    height: 400px;
+    width: 400px;
+    background:lightblue;
+    border-radius:25px;
+    margin: 20px 75px;  
+      
+}
+
+#boxHolder{
+
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+/* justify-content:space-around; */
+
+}
+
+#oBox{
+    height: 300px;
+    width: 712px;
+    background:orange;
+    margin-left: 75px
+  
+}
+
+#mixedBox{
+    
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: green; */
+}
+
+#picture{
+    width: 250px;
+    height: 150px;
+    background-color: red;
+    color:white;
+}
+
+
+
+#words{
+    display: flex;
+    flex-wrap: wrap;  
+    width: 400px;  
+}
+
+#zone4{
+    background-color: blue;
+    width: 100vw;
+    height: 150px;
+    }
